@@ -64,6 +64,8 @@ Done?
 
 `
   ``` please set according to your enviroment, set/create the '.env' file with your updated parameters
+
+please set according to your enviroment, set/create the '.env' file with your updated parameters
 MAILER_USER= <YOUR-MAILER-USER>
 MAILER_PASS=<YOUR-MAILER-PASS>
 MAILER_HOST=<YOUR-MAILER-HOST>

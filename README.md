@@ -60,3 +60,17 @@ Done?
 ### 3. All endpoints can be requested from postman
 ### 4. Data is stored in database successfully and rabbit event is emitted
 ### 5. Your application is covered with unit/functional tests
+
+### please set according to your enviroment, set/create the '.env' file with your updated parameters
+MAILER_USER= <YOUR-MAILER-USER>
+MAILER_PASS=<YOUR-MAILER-PASS>
+MAILER_HOST=<YOUR-MAILER-HOST>
+MAILER_PORT=<YOUR-MAILER-PORT>
+MONGO_URI= <YOUR-MONGO-URI>
+RABBITMQ_URL=<YOUR-RABBITMQ-URL>
+
+then install npm modules using "npm install" to install all dependencies
+after installation "npm run start" will start up the application using a nest.js script, running on port 3000. 
+Now you can starting sending request or running tests on localhost:3000/api
+
+

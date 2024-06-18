@@ -63,7 +63,7 @@ Done?
 
 
 `
-### please set according to your enviroment, set/create the '.env' file with your updated parameters
+  ``` please set according to your enviroment, set/create the '.env' file with your updated parameters
 MAILER_USER= <YOUR-MAILER-USER>
 MAILER_PASS=<YOUR-MAILER-PASS>
 MAILER_HOST=<YOUR-MAILER-HOST>
@@ -75,4 +75,4 @@ then install npm modules using "npm install" to install all dependencies
 after installation "npm run start" will start up the application using a nest.js script, running on port 3000. 
 Now you can starting sending request or running tests on localhost:3000/api
 
-`
+  ```
